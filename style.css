@@ -1,0 +1,38 @@
+body{margin:0; font-family: semi-condensed;}
+
+.header {margin: 20px ; color :white; background: pink; height: 70px;}
+
+.logo {
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;}
+
+.navbar{float: right;}
+
+.navbar ul{list-style: none; paddin-top: 10px}
+
+.navbar ul li{display:inline;margin:10px;}
+
+.navbar ul li a{text-decoration:none; color:black;}
+
+.navbar ul li a:hover{border-bottom: 2px solid black}
+
+
+.gambar {width: 90%; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    margin:auto;}
+
+.gambar .foto img {width: 300px;}
+
+.foto{border: 1px solid black;margin:10px; text-align: center }
+
+.foto a{border : 1px solid pink; padding :15px ; color: black ; background: pink ; text-decoration: none; border-radius: 15px; cursor: pointer;}
+
+.footer {text-align: center ;margin: 20px ; color :black; background: pink; height: 70px}
+
+.footer a {text-decoration: none; color : black; padding-top }
+
+body{
+    background: lightblue;
+}
